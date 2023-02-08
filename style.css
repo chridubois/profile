@@ -1,0 +1,105 @@
+body {
+  background-color:#F7F9FC;
+  font-family: 'Open Sans', sans-serif;
+  color:lightslategrey;
+  line-height:10px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 30px;
+  color: darkslategray;
+  font-weight: 800;
+  line-height: 40px
+}
+
+h2 {
+  font-size: 20px;
+  color:mediumturquoise;
+  font-weight: 600
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+  background: white;                         /* White background */
+  padding: 32px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+.circle-image {
+  width: 160px;
+  border-radius: 50%;
+  border: solid;
+  margin-top: 32px;
+}
+
+.button {
+  padding: 10px;
+  margin: 30px auto;
+  border-radius: 5px;
+  background-color:teal;
+  border: solid 1px;
+  text-decoration: none;
+  color: white;
+  font-weight: 800
+}
+
+.button:hover {
+  background-color: aquamarine;
+}
+
+p {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  line-height: 20px;
+}
+
+.list-inline {
+  margin-top: 40px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline > li > a {
+  color: blanchedalmond;
+  font-size: 32px;
+}
+
+.list-inline > li > a:hover {
+  color:darkslategrey
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
